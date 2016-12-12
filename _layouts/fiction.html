@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h1>Chapter {{ chapter.number }}:</h1>
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="fiction">
+	{{ content }}
+</div>
