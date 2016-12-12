@@ -2,4 +2,4 @@ name: Nia Fey, Knee-Deep in the Digital Humanities
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
-permalink: /projects/writing/:story-title/:chapter/:title
+#permalink: /projects/writing/:story-title/:chapter/:title
