@@ -48,3 +48,14 @@ ul.posts {
 ul.posts li {
 	list-style: none;
 }
+
+img.entrance-image {
+	float: left;
+	margin: 0 0 10px 10px;
+}
+
+.entrance-image::after{
+	content: "";
+    clear: both;
+    display: table;
+}
