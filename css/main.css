@@ -49,8 +49,14 @@ ul.posts li {
 	list-style: none;
 }
 
-img.entrance-image {
+.entrance-image {
 	float: right;
 	margin: 0 0 10px 10px;
+	clear: both;
+}
+
+.info {
+	margin-right: 0px;
 	overflow: auto;
+	display: block;
 }
