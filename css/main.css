@@ -37,6 +37,7 @@ p {
 }
 
 footer {
+	clear:both;
 	border-top: 1px solid #d5d5d5;
 	font-size: .8em;
 }
@@ -53,13 +54,10 @@ ul.posts li {
 img.info {
 	float: left;
 	margin: 0 0 10px 10px;
-	clear: both;
 }
 
 p.info {
 	margin-left 0px;
 	overflow: auto;
 	display: block;
-	width: auto;
-	clear: none;
 }
