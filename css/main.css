@@ -49,14 +49,14 @@ ul.posts li {
 	list-style: none;
 }
 
-img.entrance-image {
-	float: right;
+img.info {
+	float: left;
 	margin: 0 0 10px 10px;
 	clear: both;
 }
 
-p.entrance-image {
-	margin-right: 0px;
+p.info {
+	margin-left 0px;
 	overflow: auto;
 	display: block;
 }
