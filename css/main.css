@@ -49,13 +49,13 @@ ul.posts li {
 	list-style: none;
 }
 
-.entrance-image {
+img.entrance-image {
 	float: right;
 	margin: 0 0 10px 10px;
 	clear: both;
 }
 
-.info {
+p.entrance-image {
 	margin-right: 0px;
 	overflow: auto;
 	display: block;
