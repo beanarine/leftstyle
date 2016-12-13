@@ -33,12 +33,12 @@ p {
 	font-size: 1.5em;
 	line-height: 1.4em;
 	color: #333;
+	clear: both;
 }
 
 footer {
 	border-top: 1px solid #d5d5d5;
 	font-size: .8em;
-	clear: both;
 }
 
 ul.posts {
@@ -61,4 +61,5 @@ p.info {
 	overflow: auto;
 	display: block;
 	width: auto;
+	clear: none;
 }
