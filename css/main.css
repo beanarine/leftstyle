@@ -55,11 +55,11 @@ img.info {
 	float: left;
 	margin: 0 0 10px 10px;
 	clear: both;
-	overflow: auto;
 }
 
 p.info {
 	margin-left 0px;
+	overflow: auto;
 	display: block;
 	width: auto;
 }
