@@ -62,4 +62,5 @@ p.info {
 	overflow: auto;
 	display: block;
 	width: auto;
+	clear: none;
 }
