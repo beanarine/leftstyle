@@ -52,10 +52,5 @@ ul.posts li {
 img.entrance-image {
 	float: right;
 	margin: 0 0 10px 10px;
-}
-
-.entrance-image::after{
-	content: "";
-    clear: both;
-    display: table;
+	overflow: auto;
 }
