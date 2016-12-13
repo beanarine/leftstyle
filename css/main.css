@@ -53,8 +53,8 @@ ul.posts li {
 
 img.info {
 	float: left;
-	margin: auto, 500px, auto, 500px;
-	padding: auto, 100px, auto, 100px;
+	margin: 0px, 500px, 0px, 500px;
+	padding: 0px, 100px, 0px, 100px;
 	clear: both;
 	
 }
