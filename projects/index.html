@@ -1,0 +1,11 @@
+---
+layout: default
+title: Fey Fiction
+---
+	<h1> {{ page.title }}</h1>
+	<ul class="posts">
+	
+		{% for title in site.fiction-titles %}
+			<li><span>{{ title.title }} </span> » <a href="{{ chapter.url }}" title="{{ chapter.title }}">{{ chapter.title }}</a></li>
+		{% endfor %}
+	</ul>
