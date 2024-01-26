@@ -1,2 +1,2 @@
-# Wildfire-Nia.github.io
-Personal Webpage
+# Leftstyle
+*Common sense from common citizens*
