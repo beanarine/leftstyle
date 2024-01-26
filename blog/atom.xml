@@ -3,22 +3,22 @@ layout: feed
 ---
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Nia Fey's Blog</title>
-	<link href="https://wildfire-nia.github.io/blog/atom.xml" rel="self" />
-	<link href="https://wildfire-nia.github.io/blog" />
+	<title>Leftstyle Posts</title>
+	<link href="https://www.leftstyle.com/blog/atom.xml" rel="self" />
+	<link href="https://www.leftstyle.com/blog" />
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>https://wildfire-nia.github.io/blog</id>
+	<id>https://www.leftstyle.com/blog</id>
 	<author>
-		<name>Nia Fey</name>
+		<name>beanarine</name>
 		<email>mugetsu37@gmail.com</email>
 	</author>
 	
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="https://wildfire-nia.github.io{{ post.url }}"/>
+			<link href="https://www.leftstyle.com{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</update>
-			<id>https://wildfire-nia.github.io/{{ post.id }}</id>
+			<id>https://www.leftstyle.com/{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
